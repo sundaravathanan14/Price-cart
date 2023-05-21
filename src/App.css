@@ -1,0 +1,48 @@
+
+body{
+
+  
+  background: #D0D0D0;
+}
+
+
+
+
+.mrp{
+  text-decoration: line-through;
+  font-weight: 200;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.container {
+  padding: 40px;
+}
+
+.card{
+  margin:  10px;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  margin-top: -.05rem;
+  margin-bottom: .05rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  height: 250px;
+  margin-top:10px;
+}
+.star{
+  color:#FECC4D;
+  font-size:20px;
+}
+.disable-star{
+  color:grey;
+  font-size:20px;
+}
